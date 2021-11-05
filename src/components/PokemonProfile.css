@@ -1,3 +1,9 @@
+#BorderProfile {
+	width: fit-content;
+	padding: 0.5rem;
+	margin: 0 auto;
+}
+
 #PokeProfile {
 	background-color: white;
 	width: 35rem;
@@ -19,6 +25,8 @@
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	background-image: linear-gradient(30deg, #ffebef 25%, #ffffff 25%, #ffffff 50%, #ffebef 50%, #ffebef 75%, #ffffff 75%, #ffffff 100%);
+	background-size: 80px 46.19px;
 }
 
 #Description #Info div {
