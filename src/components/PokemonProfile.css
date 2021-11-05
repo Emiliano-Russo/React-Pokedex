@@ -1,0 +1,41 @@
+#PokeProfile {
+	background-color: white;
+	width: 35rem;
+	margin: 0 auto;
+	padding: 3rem;
+}
+
+#PokeProfile #PokemonPic {
+	max-width: 150px;
+	margin-bottom: 3rem;
+}
+
+#Logos img {
+	margin-bottom: 1rem;
+}
+
+#Description {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#Description #Info div {
+	margin-bottom: 3rem;
+}
+
+@media screen and (orientation: portrait) {
+	#PokeProfile {
+		width: 90%;
+		padding: 1rem;
+	}
+
+	#Description {
+		flex-direction: column;
+	}
+
+	#Logos {
+		margin-bottom: 3rem;
+	}
+}

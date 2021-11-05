@@ -1,0 +1,8 @@
+animacion de la carta onHover
+
+filtrar por type de pokemon (fire, water)
+
+un juego de pokemon mostrando la imagen
+en modo facil: adivinar solo el nombre
+en modo medio: adivinar nombre y tipo
+en modo dificil: adivinar nombre, tipo y evoluciones
