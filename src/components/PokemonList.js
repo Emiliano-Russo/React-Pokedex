@@ -1,7 +1,7 @@
 import PokeCard from "./PokeCard";
 import { useEffect, useState } from "react";
 import { queryForPokecards } from "./../graphql/pokemonQuery";
-import { TextField, CircularProgress } from "@mui/material";
+import { TextField, CircularProgress, Button } from "@mui/material";
 import { client } from "../graphql/client";
 import { motion } from "framer-motion";
 
@@ -27,7 +27,6 @@ function PokemonList(props) {
 	}
 
 	if (pokemons === undefined) return <CircularProgress style={{ marginTop: "5rem" }} />;
-
 	return (
 		<div>
 			<motion.div animate={{ opacity: ["0%", "100%"] }} transition={{ duration: 2 }} style={{ width: "fit-content", margin: "0 auto" }}>

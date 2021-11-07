@@ -1,0 +1,42 @@
+#Game {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#BtnBack {
+	margin-top: 50px;
+}
+
+#GuessCard {
+	margin: 40px auto;
+	width: fit-content;
+	background: white;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20rem;
+	position: relative;
+}
+
+#GuessCard img {
+	height: 300px;
+	max-width: 100%;
+}
+
+#GuessCard input {
+	text-align: center;
+}
+
+#GuessCard h4 {
+	background: -webkit-linear-gradient(rgb(113, 230, 97), rgb(79, 229, 255));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#Game h1 {
+	background: -webkit-linear-gradient(rgb(233, 153, 139), rgb(203, 255, 134));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

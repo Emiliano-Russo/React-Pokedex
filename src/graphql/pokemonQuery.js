@@ -35,3 +35,12 @@ export const queryForPokeProfile = (id) => gql`
 	}
 }
 `;
+
+export const queryForGuessGame = (amountPokemons) => gql`
+{
+	pokemons(first: ${amountPokemons}) {
+		name
+		image
+	}
+}
+`;
